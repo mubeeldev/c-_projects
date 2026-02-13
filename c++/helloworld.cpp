@@ -1,19 +1,17 @@
 #include <iostream>
-
+using namespace std;
 
 int main(){
-    std::string name;
-    int age;
+        int num1,num2;
+        double sale;
+        char first;
+        string str;
 
-    std::cout << "your name?:   ";
-    std::cin >> name;
-
-    std::cout << "your age: ";
-    std::cin >> age;
-
-    std::cout << "hello " << name;
-    std::cout << "you are " << age <<" yeas old" <<'\n';
-
+        num1 = 4;
+        num2 = 4*5-11;
+        sale = 0.02*1000;
+        first = 'D';
+        str = "it is a sunny dsy.";
 
     return 0;
 }
